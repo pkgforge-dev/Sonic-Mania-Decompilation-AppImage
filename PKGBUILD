@@ -18,13 +18,11 @@ depends=(
 source=(
 	"git+${url}.git"
 	'shadersMod.ini'
-	#'sonicmania-launcher'
 	'sonicmania.desktop'
 )
 sha256sums=(
 	'SKIP'
 	'ab10afed573e1f718b7731b0fb71589cd70a622e99b1cf90b6eec1cc54c75cba'
-	#'391d407e421a610541056eaa3ce681f47eb55c2d06de38ca4f134a573ff370b9'
 	'SKIP'
 )
 
@@ -48,7 +46,6 @@ build() {
 }
 
 package() {
-	#install -Dm755 sonicmania-launcher "$pkgdir/usr/bin/sonicmania-launcher"
 	install -Dm644 sonicmania.desktop "$pkgdir/usr/share/applications/sonicmania.desktop"
 	mkdir -p mods/GLShaders/Data
 	cp -R "$srcdir"/Sonic-Mania-Decompilation/dependencies/RSDKv5/RSDKv5/Shaders mods/GLShaders/Data
