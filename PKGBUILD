@@ -18,13 +18,13 @@ depends=(
 source=(
 	"git+${url}.git"
 	'shadersMod.ini'
-	'sonicmania-launcher'
+	#'sonicmania-launcher'
 	'sonicmania.desktop'
 )
 sha256sums=(
 	'SKIP'
 	'ab10afed573e1f718b7731b0fb71589cd70a622e99b1cf90b6eec1cc54c75cba'
-	'391d407e421a610541056eaa3ce681f47eb55c2d06de38ca4f134a573ff370b9'
+	#'391d407e421a610541056eaa3ce681f47eb55c2d06de38ca4f134a573ff370b9'
 	'25dcdd2ad1b91312a654b705a11e5b005d5c2d94d0a0f6fbc5ad34ad09dce885'
 )
 
@@ -48,7 +48,7 @@ build() {
 }
 
 package() {
-	install -Dm755 sonicmania-launcher "$pkgdir/usr/bin/sonicmania-launcher"
+	#install -Dm755 sonicmania-launcher "$pkgdir/usr/bin/sonicmania-launcher"
 	install -Dm644 sonicmania.desktop "$pkgdir/usr/share/applications/sonicmania.desktop"
 	mkdir -p mods/GLShaders/Data
 	cp -R "$srcdir"/Sonic-Mania-Decompilation/dependencies/RSDKv5/RSDKv5/Shaders mods/GLShaders/Data
@@ -59,6 +59,6 @@ package() {
 	cp -r "$srcdir/Sonic-Mania-Decompilation/switch-icon.jpg" "$pkgdir/usr/share/icons"
 
 	cd "$srcdir/Sonic-Mania-Decompilation/build/dependencies/RSDKv5"
-	install -Dm755 RSDKv5U "$pkgdir/usr/bin/sonicmania"
+	install -Dm755 RSDKv5U "$pkgdir/usr/bin/RSDKv5U"
 	install -Dm644 ../../../dependencies/RSDKv5/LICENSE.md "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
