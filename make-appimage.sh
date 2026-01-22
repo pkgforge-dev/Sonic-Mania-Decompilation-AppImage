@@ -14,7 +14,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/sonicmania-launcher /usr/lib/libdecor/*/libdecor-cairo.so
+quick-sharun /usr/bin/sonicmania /usr/lib/libdecor/*/libdecor-cairo.so
 
 # Additional changes can be done in between here
 
