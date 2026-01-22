@@ -27,7 +27,6 @@ sha256sums=(
 	'391d407e421a610541056eaa3ce681f47eb55c2d06de38ca4f134a573ff370b9'
 	'25dcdd2ad1b91312a654b705a11e5b005d5c2d94d0a0f6fbc5ad34ad09dce885'
 )
-install=sonicmania.install
 
 pkgver() {
 	cd "$srcdir/Sonic-Mania-Decompilation"
