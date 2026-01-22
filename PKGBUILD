@@ -36,8 +36,8 @@ pkgver() {
 prepare() {
 	cd "$srcdir/Sonic-Mania-Decompilation"
 	git submodule update --init --recursive
-	cmake -B build -DGAME_STATIC=on
-	cmake --build build --config release
+	cmake -Bbuild -DGAME_STATIC=ON -DCMAKE_BUILD_TYPE=Release
+	cmake --build build
 }
 
 build() {
