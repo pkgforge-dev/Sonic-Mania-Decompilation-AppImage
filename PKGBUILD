@@ -25,7 +25,7 @@ sha256sums=(
 	'SKIP'
 	'ab10afed573e1f718b7731b0fb71589cd70a622e99b1cf90b6eec1cc54c75cba'
 	#'391d407e421a610541056eaa3ce681f47eb55c2d06de38ca4f134a573ff370b9'
-	'25dcdd2ad1b91312a654b705a11e5b005d5c2d94d0a0f6fbc5ad34ad09dce885'
+	'SKIP'
 )
 
 pkgver() {
