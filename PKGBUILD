@@ -8,7 +8,7 @@ arch=('x86_64' 'aarch64')
 url='https://github.com/RSDKModding/Sonic-Mania-Decompilation'
 license=('custom:RSDKv5(U) DECOMPILATION SOURCE CODE LICENSE v2.1')
 options=('!debug' 'strip')
-makedepends=('git')
+makedepends=('git' 'cmake')
 depends=(
 	'sdl2'
 	'libtheora'
