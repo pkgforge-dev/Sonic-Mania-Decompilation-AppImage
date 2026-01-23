@@ -14,7 +14,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/RSDKv5U /usr/lib/libdecor/*/libdecor-cairo.so
+quick-sharun /usr/bin/RSDKv5U
 
 # Additional changes can be done in between here
 
