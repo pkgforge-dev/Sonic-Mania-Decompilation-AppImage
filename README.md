@@ -13,7 +13,7 @@
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/Sonic-Mania-Decompilation-AppImage/releases/latest) | [Click here]([https://github.com/pkgforge-dev/Anylinux-AppImages](https://github.com/RSDKModding/Sonic-Mania-Decompilation)) |
+| [Click here](https://github.com/pkgforge-dev/Sonic-Mania-Decompilation-AppImage/releases/latest) | [Click here](https://github.com/RSDKModding/Sonic-Mania-Decompilation) |
 
 </div>
 
