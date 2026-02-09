@@ -7,9 +7,10 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    cmake    \
-    libdecor \
-    sdl2     \
+    cmake     \
+    libdecor  \
+    libtheora \
+    sdl2      \
     tinyxml2
 
 echo "Installing debloated packages..."
