@@ -1,0 +1,3 @@
+dir=${XDG_DATA_HOME:-~/.local/share}/sonicmania
+mkdir -p "$dir"
+cd "$dir"
