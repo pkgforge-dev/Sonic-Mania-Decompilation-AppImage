@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Sonic Mania
-Exec=RSDKv5U
-Icon=/usr/share/icons/switch-icon.jpg
+Exec=sonicmania
+Icon=RSDKv5
 Type=Application
 Categories=Game
