@@ -17,7 +17,7 @@
 
 </div>
 
-### ⚠️ `Data.rsdk` inside `~/.local/share/sonicmania` ⚠️
+### ⚠️ `Data.rsdk` within `~/.local/share/sonicmania` ⚠️
 
 ---
 
