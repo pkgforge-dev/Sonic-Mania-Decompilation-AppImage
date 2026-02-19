@@ -3,4 +3,6 @@ Name=Sonic Mania
 Exec=sonicmania
 Icon=RSDKv5
 Type=Application
+StartupWMClass=sonicmania
 Categories=Game
+Terminal=false
