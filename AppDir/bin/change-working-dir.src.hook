@@ -1,4 +1,4 @@
 #!/bin/sh
-dir=${XDG_DATA_HOME:-~/.local/share}/sonicmania
+dir=$DATADIR/sonicmania
 mkdir -p "$dir"
 cd "$dir"
