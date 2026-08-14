@@ -9,6 +9,7 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     cmake     \
     glew      \
+    glfw      \
     libdecor  \
     libtheora \
     sdl2      \
