@@ -32,6 +32,6 @@ echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
 cd ./SonicMania
-cmake -S ./ -B build -D CMAKE_BUILD_TYPE=Release -D RETRO_DISABLE_PLUS=OFF
+cmake -S ./ -B build -D CMAKE_BUILD_TYPE=Release -D RETRO_DISABLE_PLUS=OFF -DUSE_SDL_AUDIO=ON
 cmake --build build -j$(nproc)
 mv -v ./build/dependencies/RSDKv5/RSDKv5U ./build/dependencies/RSDKv5/libGame.so ../AppDir/bin
