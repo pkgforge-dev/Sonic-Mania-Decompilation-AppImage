@@ -8,6 +8,7 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     cmake     \
+    glew      \
     libdecor  \
     libtheora \
     sdl2      \
