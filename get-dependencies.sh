@@ -7,12 +7,14 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    cmake     \
-    glew      \
-    glfw      \
-    libdecor  \
-    libtheora \
-    sdl2      \
+    cmake          \
+    glew           \
+    glfw           \
+    libdecor       \
+    libtheora      \
+    pipewire-audio \
+    pipewire-jack  \
+    sdl2           \
     tinyxml2
 
 echo "Installing debloated packages..."
@@ -32,6 +34,6 @@ echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
 cd ./SonicMania
-cmake -S ./ -B build -D CMAKE_BUILD_TYPE=Release -D RETRO_DISABLE_PLUS=OFF -DUSE_SDL_AUDIO=ON
+cmake -S ./ -B build -D CMAKE_BUILD_TYPE=Release -D RETRO_DISABLE_PLUS=OFF
 cmake --build build -j$(nproc)
 mv -v ./build/dependencies/RSDKv5/RSDKv5U ./build/dependencies/RSDKv5/libGame.so ../AppDir/bin
