@@ -12,8 +12,7 @@ pacman -Syu --noconfirm \
     glfw      \
     libdecor  \
     libtheora \
-    sdl2      \
-    tinyxml2
+    sdl2
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
