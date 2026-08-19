@@ -18,7 +18,7 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
-echo "Making nightly build of Sonic Mania Decompilation..."
+echo "Building Sonic Mania Decompilation..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/RSDKModding/Sonic-Mania-Decompilation"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
